@@ -17,8 +17,10 @@ Do the following:
 
    HINT: no function required
 */
-
-
+let votingAge = "18";
+if (votingAge === "18 && "<18) {
+console.log ("True")
+}
 
 /*
 Task 1b - Values
@@ -74,8 +76,8 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(D1, H1){
+    FormData.dogYears.value = form.humanYears.value * 7
 }
 
 
