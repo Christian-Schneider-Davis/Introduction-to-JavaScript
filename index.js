@@ -17,8 +17,8 @@ Do the following:
 
    HINT: no function required
 */
-let votingAge = "18";
-if (votingAge === "18 && "<18) {
+let votingAge = 18;
+if (votingAge >= 18 ) {
 console.log ("True")
 }
 
@@ -33,8 +33,11 @@ Do the following:
    HINT: no function required
 */
 
+let [a1, b1] = ["name", "age"]
+console.log (a1)
 
-
+if (b1 === "age") { b1 = "reassigned";
+}
 
 
 /*
@@ -48,7 +51,10 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+let chrisDavis = "1999"
+chrisDavis = parseInt(chrisDavis){
+return chrisDavis
+}
 
 
 /*
@@ -76,8 +82,8 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(D1, H1){
-    FormData.dogYears.value = form.humanYears.value * 7
+function dogYears(humanYears){
+   return (7) * (dogYears);
 }
 
 
