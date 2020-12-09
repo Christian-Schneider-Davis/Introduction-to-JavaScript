@@ -232,7 +232,7 @@ function annoyingSong(number){
  }  
 }  
 
- annoyingSong(99)
+ annoyingSong(10)
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
