@@ -190,10 +190,10 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
-  }
-
+function miles(kilometers){
+  return (kilometers * 0.62)
+}
+console.log (miles (10))
 
 
 //Task 5b - Feet to CM
@@ -204,9 +204,10 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
+function feet(cent){
+    return (cent / 30.48)
   }
+  console.log (cent (55))
  
 
 
