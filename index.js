@@ -227,12 +227,13 @@ function annoyingSong(number){
      for (current; current > 0; current--){
      
 
-       console.log (`${current} bottles if soda on the wall, ${number} bottles of soda, take one down pass it around ${number} bottles of soda on the wall"`) 
+       console.log (`${current} bottles if soda on the wall, ${current} bottles of soda, take one down pass it around ${current - 1} bottles of soda on the wall"`) 
      
  }  
 }  
 
- annoyingSong(50)
+ annoyingSong(99)
+
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
