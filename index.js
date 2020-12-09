@@ -52,9 +52,10 @@ Do the following:
 */
 
 let chrisDavis = "1999"
-chrisDavis = parseInt(chrisDavis){
-return chrisDavis
+function convertInt(string){
+  return parseInt(string)
 }
+chrisDavis = convertInt("1999") 
 
 
 /*
@@ -68,8 +69,8 @@ Do the following:
 
 function multiply(a, b){
     return a * b;
-    
-
+    }
+let ans = multiply(200, 150)
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
