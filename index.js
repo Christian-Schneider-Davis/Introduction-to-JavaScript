@@ -168,11 +168,16 @@ Use the game function below to do the following:
   HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
 
-function game(user, computer){
-    /*add your code here*/
+computer = Math.ceil (Math.random() * 3)
+user = 2   
+  function game(user, computer){
+    if (computer < user)
+    console.log("You win!")
+    if (computer > user) 
+    console.log("You Lose!")
+    if (computer === user)
+    console.log("It's A Tie!")
 }
-  
-  
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
