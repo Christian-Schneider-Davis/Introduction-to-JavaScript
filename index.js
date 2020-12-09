@@ -207,7 +207,7 @@ Using the feet function below do the following:
 function feet(cent){
     return (cent / 30.48)
   }
-  console.log (cent (55))
+  console.log (feet (55))
  
 
 
